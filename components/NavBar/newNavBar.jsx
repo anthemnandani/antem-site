@@ -56,7 +56,7 @@ function NewNavBar() {
                           <Tilt scale={scale} transitionSpeed={4000}>
                             {" "}
                             <img
-                              src={`${process.env.REACT_APP_CLOUDINARY_IMAGE_BASE_URL}/images/mega-menu/Custom-Software/Content.svg`}
+                              src={imgUrl("/images/mega-menu/Custom-Software/Content.svg")}
                               className="custom-svg"
                               alt="Content Management System"
                             />
@@ -69,7 +69,7 @@ function NewNavBar() {
                           <Tilt scale={scale} transitionSpeed={4000}>
                             {" "}
                             <img
-                              src={`${process.env.REACT_APP_CLOUDINARY_IMAGE_BASE_URL}/images/mega-menu/Custom-Software/business-briefcase-thin.svg`}
+                              src={imgUrl("/images/mega-menu/Custom-Software/business-briefcase-thin.svg")}
                               className="custom-svg"
                               alt="Business Process Management"
                             />
@@ -82,7 +82,7 @@ function NewNavBar() {
                           <Tilt scale={scale} transitionSpeed={4000}>
                             {" "}
                             <img
-                              src={`${process.env.REACT_APP_CLOUDINARY_IMAGE_BASE_URL}/images/mega-menu/Custom-Software/HumanResourceManagement.svg`}
+                              src={imgUrl("/images/mega-menu/Custom-Software/HumanResourceManagement.svg")}
                               className="custom-svg"
                               alt="Human Resource Management"
                             />
@@ -108,9 +108,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Web-Mobile-Apps/wordpress-thin.svg"
+                                
+                             imgUrl("/images/mega-menu/Web-Mobile-Apps/wordpress-thin.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -126,9 +125,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Web-Mobile-Apps/iOSAppDevelopment.svg"
+                               imgUrl(
+                                "/images/mega-menu/Web-Mobile-Apps/iOSAppDevelopment.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -144,9 +142,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Web-Mobile-Apps/android.svg"
+                               imgUrl(
+                                "/images/mega-menu/Web-Mobile-Apps/android.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -162,9 +159,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Web-Mobile-Apps/code.svg"
+                              
+                                imgUrl("/images/mega-menu/Web-Mobile-Apps/code.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -182,9 +178,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Web-Mobile-Apps/app-developer.svg"
+                                
+                               imgUrl("/images/mega-menu/Web-Mobile-Apps/app-developer.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -200,9 +195,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Web-Mobile-Apps/performance.svg"
+                           
+                                imgUrl("/images/mega-menu/Web-Mobile-Apps/performance.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -218,9 +212,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Web-Mobile-Apps/api.svg"
+                              
+                                imgUrl("/images/mega-menu/Web-Mobile-Apps/api.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -236,9 +229,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Web-Mobile-Apps/windows.svg"
+                               imgUrl(
+                                "/images/mega-menu/Web-Mobile-Apps/windows.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -343,9 +335,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/AI-Powered-Solutions/user-speaker.svg"
+                               imgUrl(
+                                "/images/mega-menu/AI-Powered-Solutions/user-speaker.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -361,9 +352,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/AI-Powered-Solutions/DataExtraction.svg"
+                              
+                                imgUrl("/images/mega-menu/AI-Powered-Solutions/DataExtraction.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -379,9 +369,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/AI-Powered-Solutions/AI-1.svg"
+                              imgUrl(
+                                "/images/mega-menu/AI-Powered-Solutions/AI-1.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -411,9 +400,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Marketing-Automation/envelope-paper-email-thin.svg"
+                              imgUrl(
+                                "/images/mega-menu/Marketing-Automation/envelope-paper-email-thin.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -429,9 +417,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Marketing-Automation/share.svg"
+                            imgUrl(
+                                "/images/mega-menu/Marketing-Automation/share.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -447,9 +434,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Marketing-Automation/seo-marketing.svg"
+                              imgUrl(
+                                "/images/mega-menu/Marketing-Automation/seo-marketing.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -465,9 +451,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Marketing-Automation/one-finger-click.svg"
+                              imgUrl(
+                                "/images/mega-menu/Marketing-Automation/one-finger-click.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -485,9 +470,9 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Marketing-Automation/Content.svg"
+                               
+                             
+                                imgUrl("/images/mega-menu/Marketing-Automation/Content.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -503,9 +488,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Marketing-Automation/user-analytics.svg"
+                             imgUrl(
+                                "/images/mega-menu/Marketing-Automation/user-analytics.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -521,9 +505,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Marketing-Automation/sms.svg"
+                          imgUrl(
+                                "/images/mega-menu/Marketing-Automation/sms.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -539,9 +522,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Marketing-Automation/customer-service.svg"
+                            imgUrl(
+                                "/images/mega-menu/Marketing-Automation/customer-service.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -569,9 +551,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/MVP-Development/circuit.svg"
+                           imgUrl(
+                                "/images/mega-menu/MVP-Development/circuit.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -587,9 +568,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/MVP-Development/user-interface.svg"
+                               imgUrl(
+                                "/images/mega-menu/MVP-Development/user-interface.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -605,9 +585,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/MVP-Development/feedback2.svg"
+                              imgUrl(
+                                "/images/mega-menu/MVP-Development/feedback2.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -623,9 +602,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/MVP-Development/design-and-development-02.svg"
+                                imgUrl(
+                                "/images/mega-menu/MVP-Development/design-and-development-02.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -643,9 +621,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/MVP-Development/agile.svg"
+                             imgUrl(
+                                "/images/mega-menu/MVP-Development/agile.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -661,9 +638,9 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/MVP-Development/jira.svg"
+                              
+                              imgUrl(
+                                "/images/mega-menu/MVP-Development/jira.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -679,9 +656,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/MVP-Development/launch.svg"
+                              imgUrl(
+                                "/images/mega-menu/MVP-Development/launch.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -697,9 +673,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/MVP-Development/performance.svg"
+                              imgUrl(
+                                "/images/mega-menu/MVP-Development/performance.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -729,9 +704,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Enterprise-Software/security.svg"
+                              imgUrl(
+                                "/images/mega-menu/Enterprise-Software/security.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -747,9 +721,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Enterprise-Software/network-server-database.svg"
+                             imgUrl(
+                                "/images/mega-menu/Enterprise-Software/network-server-database.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -765,9 +738,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Enterprise-Software/integration.svg"
+                              imgUrl(
+                                "/images/mega-menu/Enterprise-Software/integration.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -783,9 +755,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Enterprise-Software/chart-multi-line.svg"
+                           imgUrl(
+                                "/images/mega-menu/Enterprise-Software/chart-multi-line.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -803,9 +774,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Enterprise-Software/get-ahead-of-risk-and-compliance.svg"
+                              imgUrl(
+                                "/images/mega-menu/Enterprise-Software/get-ahead-of-risk-and-compliance.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -821,9 +791,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Enterprise-Software/workflow-diagram.svg"
+                            imgUrl(
+                                "/images/mega-menu/Enterprise-Software/workflow-diagram.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -851,9 +820,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Data-Analysis-ETL/DataExtraction.svg"
+                          imgUrl(
+                                "/images/mega-menu/Data-Analysis-ETL/DataExtraction.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -869,9 +837,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Data-Analysis-ETL/DataTransforming.svg"
+                              imgUrl(
+                                "/images/mega-menu/Data-Analysis-ETL/DataTransforming.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -887,9 +854,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Data-Analysis-ETL/Dataloading.svg"
+                              imgUrl(
+                                "/images/mega-menu/Data-Analysis-ETL/Dataloading.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -905,9 +871,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Data-Analysis-ETL/CustomDashboards.svg"
+                              imgUrl(
+                                "/images/mega-menu/Data-Analysis-ETL/CustomDashboards.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -925,9 +890,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Data-Analysis-ETL/BussinessIntelligence.svg"
+                                imgUrl(
+                                "/images/mega-menu/Data-Analysis-ETL/BussinessIntelligence.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -943,9 +907,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Data-Analysis-ETL/database.svg"
+                            imgUrl(
+                                "/images/mega-menu/Data-Analysis-ETL/database.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -961,9 +924,9 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Data-Analysis-ETL/DataCleaning.svg"
+                            
+                              imgUrl(
+                                "/images/mega-menu/Data-Analysis-ETL/DataCleaning.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -989,9 +952,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/UI-UX-Design/WebsiteDesignDevelopment.svg"
+                               imgUrl(
+                                "/images/mega-menu/UI-UX-Design/WebsiteDesignDevelopment.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -1007,9 +969,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/UI-UX-Design/Mobile-UI-Design.svg"
+                             imgUrl(
+                                "/images/mega-menu/UI-UX-Design/Mobile-UI-Design.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -1025,9 +986,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/UI-UX-Design/Prototyping.svg"
+                           imgUrl(
+                                "/images/mega-menu/UI-UX-Design/Prototyping.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -1043,9 +1003,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/UI-UX-Design/Brand-Design.svg"
+                              imgUrl(
+                                "/images/mega-menu/UI-UX-Design/Brand-Design.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
@@ -1236,9 +1195,8 @@ function NewNavBar() {
                             {" "}
                             <img
                               src={
-                                process.env
-                                  .REACT_APP_CLOUDINARY_IMAGE_BASE_URL +
-                                "/images/mega-menu/Workforce-Compliance-Solutions/Compliance-Tracking.svg"
+                              imgUrl(
+                                "/images/mega-menu/Workforce-Compliance-Solutions/Compliance-Tracking.svg")
                               }
                               className="custom-svg"
                               loading="lazy"
